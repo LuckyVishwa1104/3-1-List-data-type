@@ -11,7 +11,9 @@ a,b=alph.index("o"),alph.index("k")
 print(a,b)
 c=alph.index("v")
 print(c,alph.index("v"))	
+
 # when same elem. present more then once it return the index of first appearence only.
 print(alph.index("b"))	 
+
 # if elem. is not present it raises value error
 # print(alph.index("#"))  --> value error
