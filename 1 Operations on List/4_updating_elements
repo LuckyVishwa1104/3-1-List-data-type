@@ -1,0 +1,42 @@
+#4. updating or changing elements.
+'''  by giving new value to particular index
+   Syntax :
+  	  list_name[index]=new value  '''
+  	  
+#1). Using positive index - 	  
+# changing element using positive index of list.
+print("1). Using Positive Index :")
+list=[2,4,6,8,10]
+print(list)
+list[0]=1
+list[1]=3
+list[2]=5
+list[3]=7
+list[4]=11
+print(list)
+
+#2). Using negative index - changing using negative index
+print("2). Using Negative Index :")
+list1=[1, 5, 7, 9, 11]
+print(list1)
+list1[-5]="one"
+list1[-4]="five"
+list1[-3]="seven"
+list1[-2]="nine"
+list1[-1]="eleven"
+print(list1)
+
+#3). Using slice ':' operator - changing elements using slice method
+print("3). Using Slice Operator :")
+list2=[1,3,5,2,4,6,8,10,17,19,21,25]
+print(list2)
+list2[3:8]=7,9,11,13,15
+print(list2)
+list2[2:7:2]="a","b","c"
+print(list2)
+list3=[2,4,0b11,"gun",3.7,"by"]
+print(list3)
+list3[2:5]=[2,3],(2,3),{2,3}
+print(list3)
+list3[1:5:2]="no","yes"
+print(list3)
