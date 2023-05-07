@@ -1,5 +1,6 @@
-#5. Deleting elements of list -
+#5. Deleting elements of list - removing element of the list 
 # deletion is carried out by pop, del, remove functions.
+
 #1]. pop( ) - used to delete element at particular index.
 #Syntax:   list_name.pop(index)
 print("pop()_function")	             
@@ -24,6 +25,7 @@ print(even)
 # when no argument is passed (-1) is taken as default.
 even.pop()
 print(even)
+
 #2]. remove( ) - used to delete a particular elelment.
 #Syntax :  list_name.remove(value)
 print("remove()_function")	    
@@ -43,6 +45,7 @@ print(data)
 lisr=[2,3,4,56,4,7,888,9]
 lisr.remove(4)
 print(lisr)
+
 #3]. del function - used to delete two or more element at a time.
 #Syntax :  del list_name[start : end index] 
 # delete all even no.

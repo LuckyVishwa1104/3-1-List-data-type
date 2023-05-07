@@ -1,4 +1,4 @@
-#1. List data-type - collection of elem. separeted by commas in square braces.
+#1. List data-type - collection of elem. separeted by commas and enclosed within square braces.
 #  List = [val_1,val_2,val_3, . . . ,val_n]
 
 #1]. Creating and Declaring a list

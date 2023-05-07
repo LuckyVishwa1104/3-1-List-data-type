@@ -1,5 +1,5 @@
 #4. updating or changing elements.
-'''  by giving new value to particular index
+'''by giving new value to particular index
    Syntax :
   	  list_name[index]=new value  '''
   	  

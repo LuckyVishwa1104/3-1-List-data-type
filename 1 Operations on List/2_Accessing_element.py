@@ -1,4 +1,4 @@
-#2. Accessing element of list
+#2. Accessing element of list - to retrive particular elements of list.
 # index - position of element in sequence.
 ''' using the index of element we can access the element
 syntax:
@@ -27,7 +27,8 @@ print(2+list_2[-6])
 print(list_2[-6]+list_2[-4])
 
 #3) using slice ' : ' - starting to ending index.
-'''list_name=[starting_index : ending_index]'''
+# using slice operater we can multliple elements
+'''list_name=[starting_index : ending_index : step size]'''
 list_3=[9,7.3,"hil",[5,7,9],7-8j,0o23,(7,8,9)]
 print(list_3[0:4:2])
 print(list_3[2:7])
